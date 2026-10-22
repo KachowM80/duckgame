@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dg3cxk3tr4ffv"]
+
+[ext_resource type="Texture2D" uid="uid://dco55be24qhmn" path="res://stone fo dtg (1).png" id="1_oj3tl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_umt7f"]
+size = Vector2(1225, 64)
+
+[node name="Area2D" type="Area2D" unique_id=1967098635]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=802387969]
+position = Vector2(580.5, 0)
+scale = Vector2(19.140625, 1)
+texture = ExtResource("1_oj3tl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1514829337]
+position = Vector2(580.5, 0)
+shape = SubResource("RectangleShape2D_umt7f")
